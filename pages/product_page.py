@@ -15,7 +15,7 @@ class ProductPage(BasePage):
     def should_be_success_message(self):
         product_name=self.browser.find_element(*ProductPageLocators.PRODUCT_NAME).text
         message=self.browser.find_element(*ProductPageLocators.SUCCESS_MESSAGE).text
-        assert product_name in message, 'product name is not presented'
+        assert f'{product_name} has been added to your basket.'== message, 'product name is not presented'
 
     def should_be_total_price(self):
         total_price=self.browser.find_element(*ProductPageLocators.BASKET_TOTAL_PRICE).text
