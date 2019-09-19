@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dc2cf25-3576-4fa2-83c2-9a45688f01a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="73">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="45" />
               <folding>
                 <element signature="e#0#61#0" expanded="true" />
               </folding>
@@ -26,24 +27,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/main_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="272">
+              <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,16 +41,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/locators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="63" />
+            <state relative-caret-position="221">
+              <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_main_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
+            <state relative-caret-position="51">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
@@ -70,11 +59,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_product_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pytest.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -94,8 +92,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/product_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,15 +136,16 @@
         <option value="$PROJECT_DIR$/main_page.py" />
         <option value="$PROJECT_DIR$/pages/__init__.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/pages/login_page.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/pages/product_page.py" />
         <option value="$PROJECT_DIR$/pages/main_page.py" />
-        <option value="$PROJECT_DIR$/pages/base_page.py" />
-        <option value="$PROJECT_DIR$/pages/locators.py" />
         <option value="$PROJECT_DIR$/pages/basket_page.py" />
-        <option value="$PROJECT_DIR$/test_product_page.py" />
         <option value="$PROJECT_DIR$/test_main_page.py" />
+        <option value="$PROJECT_DIR$/pages/base_page.py" />
+        <option value="$PROJECT_DIR$/pages/product_page.py" />
+        <option value="$PROJECT_DIR$/pages/locators.py" />
+        <option value="$PROJECT_DIR$/pages/login_page.py" />
+        <option value="$PROJECT_DIR$/test_product_page.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
       </list>
     </option>
   </component>
@@ -170,6 +172,10 @@
               <item name="POD-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="POD-master" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POD-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -294,6 +300,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_product_page.TestUserAddToBasketFromProductPage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="POD-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\ASUS\POD-master\env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_product_page.TestUserAddToBasketFromProductPage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_product_page.test_guest_can_add_product_to_basket" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="POD-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -330,11 +351,13 @@
       <item itemvalue="Python tests.pytest for test_main_page" />
       <item itemvalue="Python tests.pytest for test_product_page.test_guest_can_add_product_to_basket" />
       <item itemvalue="Python tests.pytest in test_product_page.py" />
+      <item itemvalue="Python tests.pytest for test_product_page.TestUserAddToBasketFromProductPage" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_product_page.py" />
         <item itemvalue="Python tests.pytest for test_main_page" />
+        <item itemvalue="Python tests.pytest for test_product_page.TestUserAddToBasketFromProductPage" />
         <item itemvalue="Python tests.pytest for test_product_page.test_guest_can_add_product_to_basket" />
         <item itemvalue="Python.product_page" />
       </list>
@@ -379,31 +402,24 @@
       <option name="project" value="LOCAL" />
       <updated>1568910861597</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="loginlink tests marked">
+      <created>1568916630634</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568916630634</updated>
+    </task>
+    <task id="LOCAL-00006" summary="setup added to TestUserAddToBasketFromProductPage">
+      <created>1568928970313</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568928970313</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_product_page_py - 2019.09.19 at 16h 37m 49s.xml">
-      <configuration name="pytest in test_product_page.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_product_page_py - 2019.09.19 at 16h 42m 40s.xml">
-      <configuration name="pytest in test_product_page.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_product_page_py - 2019.09.19 at 16h 46m 09s.xml">
-      <configuration name="pytest in test_product_page.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_main_page - 2019.09.19 at 18h 45m 37s.xml">
-      <configuration name="pytest for test_main_page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_main_page - 2019.09.19 at 19h 01m 55s.xml">
-      <configuration name="pytest for test_main_page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_main_page - 2019.09.19 at 19h 09m 25s.xml">
-      <configuration name="pytest for test_main_page" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_main_page - 2019.09.19 at 19h 10m 36s.xml">
-      <configuration name="pytest for test_main_page" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_main_page - 2019.09.19 at 19h 18m 02s.xml">
       <configuration name="pytest for test_main_page" configurationId="tests" />
     </history-entry>
@@ -413,23 +429,44 @@
     <history-entry file="pytest_in_test_product_page_py - 2019.09.19 at 19h 32m 05s.xml">
       <configuration name="pytest in test_product_page.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_product_page_TestUserAddToBasketFromProductPage - 2019.09.20 at 00h 22m 49s.xml">
+      <configuration name="pytest for test_product_page.TestUserAddToBasketFromProductPage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_product_page_TestUserAddToBasketFromProductPage - 2019.09.20 at 00h 25m 41s.xml">
+      <configuration name="pytest for test_product_page.TestUserAddToBasketFromProductPage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_product_page_TestUserAddToBasketFromProductPage - 2019.09.20 at 00h 26m 16s.xml">
+      <configuration name="pytest for test_product_page.TestUserAddToBasketFromProductPage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_product_page_TestUserAddToBasketFromProductPage - 2019.09.20 at 00h 30m 46s.xml">
+      <configuration name="pytest for test_product_page.TestUserAddToBasketFromProductPage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_product_page_TestUserAddToBasketFromProductPage - 2019.09.20 at 00h 34m 02s.xml">
+      <configuration name="pytest for test_product_page.TestUserAddToBasketFromProductPage" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_main_page - 2019.09.20 at 00h 52m 42s.xml">
+      <configuration name="pytest for test_main_page" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_product_page_py - 2019.09.20 at 00h 55m 27s.xml">
+      <configuration name="pytest in test_product_page.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22478157" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22478157" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15957446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20567375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49960285" weight="0.32978722" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.069148935" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.6099291" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039715" side_tool="true" weight="0.15602838" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -442,7 +479,9 @@
     <MESSAGE value="negative assertions added to product page" />
     <MESSAGE value="login link methods added to base page objects" />
     <MESSAGE value="basket page added&#10;empty basket assertions added" />
-    <option name="LAST_COMMIT_MESSAGE" value="basket page added&#10;empty basket assertions added" />
+    <MESSAGE value="loginlink tests marked" />
+    <MESSAGE value="setup added to TestUserAddToBasketFromProductPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup added to TestUserAddToBasketFromProductPage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.pytest_cache/.gitignore">
@@ -467,6 +506,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/locators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/main_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -477,30 +523,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/product_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="63" />
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -514,27 +560,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/product_page.py">
+    <entry file="file://$PROJECT_DIR$/pages/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
+        <state relative-caret-position="73">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_product_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_main_page.py">
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
