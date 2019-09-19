@@ -10,8 +10,6 @@ class ProductPage(BasePage):
         button_add_to_basket.click()
         solve_quiz_and_get_code(self)
 
-
-
     def should_be_success_message(self):
         product_name=self.browser.find_element(*ProductPageLocators.PRODUCT_NAME).text
         message=self.browser.find_element(*ProductPageLocators.SUCCESS_MESSAGE).text
